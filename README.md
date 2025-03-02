@@ -13,8 +13,9 @@ This repository contains code, configuration files, and documentation for integr
 
 Before getting started, ensure you have the following:
 
-- **CODESYS** Development System installed on your machine.
-- A **Profinet** compatible device or controller.
+- **CODESYS** Development System installed on your machine. CODESYS V3.5 SP20 Patch 5 was used on a Windows 11 64-bit Arm VM running in with VMWare Fusion on a MacMini M2. 
+- A raspberry pi (was using a pi 3)
+- A **Profinet** compatible device. The SICK AG Profinet encoder ANS58B was used.
 - Basic understanding of **Profinet** protocol and **CODESYS** programming environment.
 
 ## Installation
@@ -24,4 +25,4 @@ Before getting started, ensure you have the following:
 To get started with the repository, first clone it to your local machine:
 
 ```bash
-git clone https://github.com/your-username/codesys-profinet.git
+git clone git@github.com:mobro/CodesysProfinet.git
